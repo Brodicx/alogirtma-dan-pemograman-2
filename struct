@@ -1,0 +1,42 @@
+#include<iostream>
+using namespace std;
+
+struct mahasiswa{
+
+string nama;
+int nim;
+string alamat;
+string prodi;
+};
+
+int main(){
+mahasiswa data;
+cout<<"masukan nama : ";
+
+cin>>data.nama;
+
+cout<<"masukan nim: ";
+
+cin>>data.nim;
+
+cout<<"masukan alamat: ";
+
+cin>>data.alamat;
+
+cout<<"masukan nama prodi: ";
+
+cin>>data.prodi;
+
+cout<<endl<<endl;
+
+    cout<<"Nama saya adalah "<<data.nama<<endl;
+    cout<<"Nomor NIM saya adalah "<<data.nim<<endl;
+    cout<<"Prodi saya adalah "<<data.alamat<<endl;
+    cout<<"Alamat saya adalah "<<data.prodi<<endl;
+
+    cin.get();
+    return 0;
+}
+
+
+
